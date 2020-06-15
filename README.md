@@ -82,3 +82,36 @@ function $initHighlight(block, cls) {
 
 export  $initHighlight;
 ~~~
+
+# Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Maxi   | Burgos   | 345289    |
+| Tomas  | Tompson | 325698    |
+
+# Citas 
+Esto es un texto referente a una cita:
+>Esto es una cita
+
+Esto es otro texto que no es parte de la cita anterior.
+
+>Esto es otra cita.
+
+# Lineas Divisorias
+
+Esto es un texto de ejemplo.
+
+---
+Esto es otro texto.
+
+***
+Un texto más.
+
+___
+
+# Saltos de línea
+Esto es el primer parrafo.
+
+Esto es nuestro segundo parrafo.
+
+Esto es nuestro tercer parrafo.
