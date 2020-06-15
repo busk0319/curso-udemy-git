@@ -39,4 +39,46 @@ Underline 2
 
 # Imágenes 
 
-![Logo Gitchub](https://img2.freepng.es/20180514/gae/kisspng-github-logo-repository-computer-icons-5afa376c2582d9.9650908015263476281537.jpg)
+![Logo Gitchub](https://3.bp.blogspot.com/-Vknrk6s3U18/Upcf-6kCnDI/AAAAAAAAD2E/04uzk-7-0ak/s1600/git-logo.png)
+
+# Code Snippets
+Código en JSON
+~~~JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+~~~
+
+Código en JavaScript
+~~~JavaScript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+~~~
